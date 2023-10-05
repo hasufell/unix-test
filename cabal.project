@@ -1,0 +1,7 @@
+packages: ./unix-test.cabal
+
+source-repository-package
+  type: git
+  location: https://github.com/haskell/unix.git
+  tag: 5211c230903aee8c09485e8246993e2a1eb74563
+  post-checkout-command: autoreconf -i
